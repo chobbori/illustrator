@@ -1,0 +1,20 @@
+git 유저설정 (git프로그램 설치 하고나서 한번만)
+
+git config --global user.name "chobbori"
+git cinfing --global user.email in714456@gmail.com
+
+폴더 감시 시작 환경 만들기 (초기화)
+폴더 안에 들어가서 우클릭 후 bash프로그램 실행
+git init 
+(프로젝트 폴더 안에서 관리감시를 하기위한 환경을 설정하기 위한 것으로
+최초로 한번만 실행)
+
+git status
+(현재 git 프로그램이 감시하고있는 상태를 확인하기 위한 명령어)
+-> 상태확인을 위해 시도때도없이 실행해도 됨
+
+git remote add origin 깃허브 주소
+(현재 나의 로컬 저장소와 원격 저장소의 연결고리를 설정)
+
+git remote -v
+(현재 설정되어있는 원격저장소의 정보를 확인)
